@@ -46,4 +46,16 @@ planetDescription(planet: planet, numberOfMoons: moons)
 
 //External vs Local Parameter Names
 
+func newPlanetDescription(_ planetName: String, _ numberOfMoons: Int) {
+    print("The planet \(planetName) has \(numberOfMoons) moons. Cool Stuff!")
+}
+
+newPlanetDescription("Earth", 1)
+newPlanetDescription("Neptune", 23) //the use of the underscore means there's no external parameter name
+                                    // thus we don't need to write it in
+
+
+planetDescription(planet: planet, numberOfMoons: moons)
+planetDescription(planet: "Earth", numberOfMoons: 123)
+
 
