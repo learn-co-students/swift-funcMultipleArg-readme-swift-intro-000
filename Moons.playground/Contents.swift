@@ -41,3 +41,9 @@ planetDescription(planet: planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet: planet, numberOfMoons: moons)
+
+
+
+//External vs Local Parameter Names
+
+
