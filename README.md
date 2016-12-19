@@ -141,6 +141,11 @@ Now that's impressive! Play around with functions that take multiple arguments a
 
 # External vs Local Parameter Names
 
+## Functions Video (argument labels, parameter names)
+
+[![](http://img.youtube.com/vi/rKEGciKb4sY/0.jpg)](https://www.youtube.com/watch?v=rKEGciKb4sY "Functions Arg")
+
+
 Function parameters have both an external parameter name and a local parameter name. An external parameter name is used to label arguments passed to a function call. A local parameter name is used in the implementation of the function. What does that mean?
 
 ```swift
